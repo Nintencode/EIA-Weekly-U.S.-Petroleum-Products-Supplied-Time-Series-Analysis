@@ -1,1 +1,6 @@
 # EIA-Weekly-U.S.-Petroleum-Products-Supplied-Time-Series-Analysis
+This project analyzes weekly U.S. Total Petroleum Products Supplied data from the Energy Information Administration (EIA), spanning November 1990 through October 2025. The objective is to identify long term trends, seasonal patterns, and generate short term demand forecasts using time series modeling in JMP and SAS.
+
+The data revealed a general upward trend in petroleum demand since 1990, with notable disruptions during the 2008 financial crisis and the 2020 COVID pandemic. Since mid 2021, supply has stabilized near 19 to 20 million barrels per day. Following differencing to achieve stationarity, two models were developed and compared. The non seasonal ARIMA(5,1,1) captured short term dynamics effectively, while the seasonal SARIMA(0,1,1)(0,1,1)52 better represented annual cyclicality and achieved stronger AIC and SBC values.
+
+Both models forecast continued stability near current supply levels. The SARIMA model is preferred for long term planning, while ARIMA remains a strong option for short term forecasting. Findings suggest the U.S. petroleum market is mature, supporting steady refining operations and seasonal inventory planning going forward.
